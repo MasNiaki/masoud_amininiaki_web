@@ -10,6 +10,7 @@
 <?php
 echo "<h1> My Exercise 3 - Masoud Amininiaki </h1>";
 
+
 # Question 1
 $m = date("F");
 if ($m == "August"){
@@ -18,6 +19,8 @@ if ($m == "August"){
 else {
     echo "Not August, This is $m so i don't have any holidays";
 }
+echo "<br>";
+
 
 # Question 2
 $color = "red";
@@ -27,6 +30,8 @@ echo "<br>" . '<span style="color:red;">The color is red.</span>';
 else {
     echo "<br>" . "The color is not red.";
 }
+echo "<br>";
+
 
 # Question 3
 $grade = 73;
@@ -46,8 +51,10 @@ else if ($grade > 50 && $grade <= 60) {
 else {
     echo "<br>" . "Fail";
 }
+echo "<br>";
 
-# Question 4
+
+#Question 4
 
 
 # Question 5
@@ -83,10 +90,11 @@ $j++;
 echo "<br />";
 }
 
+
 # Question 7
+echo "<br>";
+echo "https://github.com/MasNiaki/Question7_WebsiteTommy";
 
-
-?>
-    
+?> 
 </body>
 </html>
