@@ -12,6 +12,7 @@ echo "<li>$courses</li>";
 }
 echo "<br>";
 
+
 /* 2. The unset() function is used to remove element from the array.
 The var_dump() function is used to dump information about a variable. 
 array_values() is an inbuilt function that 
@@ -20,7 +21,26 @@ Delete an element from the array below:
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 */
 
+echo "<br>";
+$courses1 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 
+// remove item at index 1 which is "HTML"
+unset($courses1[1]); 
+
+// Print modified array
+var_dump($courses1);
+
+// Re-index the array elements
+$courses2 = array_values($courses1);
+
+// Print re-indexed array
+var_dump($courses2);
+echo "<br>";
+echo "<br>";
+foreach ($courses2 as $courses2)
+{
+echo "<li>$courses2</li>";
+}
 
 
 /* 
@@ -31,6 +51,16 @@ b) ascending order sort by Key
 c) descending order sort by Value
 d) descending order sort by Key
 */
+
+echo "<br>";
+
+
+
+
+
+echo "<br>";
+
+
 
 
 
